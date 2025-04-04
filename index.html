@@ -1,10 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TwinMoji - Developer Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+            display: flex; /* Use flexbox */
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center items horizontally */
+        }
+        header img {
+            max-width: 100px; /* Adjust size as needed */
+            margin-bottom: 10px; /* Add spacing below the logo */
+        }
+        main {
+            padding: 20px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #007BFF;
+        }
+        .app-info {
+            margin-bottom: 20px;
+        }
+        .app-features {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .app-screenshots {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .app-screenshots img {
+            max-width: 200px;
+            margin: 0 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        .download-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .contact-info {
+            margin-top: 20px;
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #eee;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Contact Info</h1>
-    <p>You can contact me sending an email to: <a href="mailto:uriaeri@gmail.com">uriaeri@gmail.com</a></p>
+
+    <header>
+        <img src="https://raw.githubusercontent.com/raveintospace/Twinmoji/main/Twinmoji/Twinmoji/Assets.xcassets/AppIcon.appiconset/appLogoFour.png" alt="Twinmoji App Logo">
+        <h1>Twinmoji</h1>
+        <p>By Uri46</p>
+    </header>
+
+    <main>
+        <section class="app-info">
+            <h2>About Twinmoji</h2>
+            <p>
+                Twinmoji is a fun and challenging game that tests your speed and sharpness! Can you spot the only repeated emoji between two cards? Play solo or battle a friend in two exciting modes:
+            </p>
+
+            <h3>Single Mode</h3>
+            <p>
+                Race against the clock to find the matching emoji across ten rounds. Earn points based on speed and difficulty, choose from four emoji decks, four countdown speeds, and four difficulty levels (3, 6, 9 or 12 emojis). Watch your score soar with every match!
+            </p>
+
+            <h3>Battle Mode</h3>
+            <p>
+                Challenge a friend in a head-to-head showdown. One player starts the countdown, the other races to find the repeated emoji. Score points for every win, but beware, mistakes cost you! First to 5 points wins, or lose at -5.
+            </p>
+
+            <p>
+                Features:
+            </p>
+            <ul class="app-features">
+                <li>Smooth SwiftUI animations for an engaging experience.</li>
+                <li>Four unique emoji decks to keep the game fresh.</li>
+                <li>Customizable gameplay: Four speeds (Chill, Slow, Quick, Fast) and four difficulties (Easy, Medium, Advanced, Hard).</li>
+                <li>Color-based countdowns for intuitive timing.</li>
+                <li>Track your single high scores and challenge yourself.</li>
+                <li>Perfect for quick solo challenges or friendly competitions, Twinmoji brings emoji fun to your fingertips.</li>
+            </ul>
+
+            <div class="app-screenshots">
+                <img src="https://github.com/raveintospace/Twinmoji/blob/main/screenshots/SplashView.PNG" alt="Screenshot of Twinmoji Launch Screen">
+                <img src="https://github.com/raveintospace/Twinmoji/blob/main/screenshots/BattleGameView.PNG" alt="Screenshot of Twinmoji Battle Mode">
+            </div>
+
+            <a href="https://apps.apple.com/us/app/twin-moji/id6743053950" class="download-button">Download on the App Store</a>
+        </section>
+
+        <section class="privacy-policy">
+            <h2>Privacy Policy</h2>
+            <p>
+                <a href="https://docs.google.com/document/d/19sxqfhhg07kp2v8a_4Ia5SRUPtL6tDt6QZp6aJOdSSQ/edit?usp=sharing">Click here to view our Privacy Policy</a>
+            </p>
+        </section>
+
+        <section class="support">
+            <h2>Support</h2>
+            <p>
+                If you have any questions or need support, please contact us.
+            </p>
+        </section>
+
+        <section class="contact-info">
+            <h2>Contact Us</h2>
+            <p>
+                You can contact us by email at: <a href="mailto:uriaeri@gmail.com">uriaeri@gmail.com</a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/in/uri46/">LinkedIn</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Uri46. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
